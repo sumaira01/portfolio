@@ -1,0 +1,452 @@
+*{
+     margin: 0%;
+     padding: 0%;
+     
+}
+
+button:hover{
+    background-color: black;
+    border: 2px solid blue;
+}
+
+body{
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+.grandian{
+    position: absolute;
+    left: 275px;
+    background: linear-gradient(180deg, rgba(188, 165, 255, 0.9) 0%, #214d76 100%);
+    filter: blur(123px);
+    width: 200px;
+    height: 200px;
+    top: 200px;
+}
+
+
+
+/*Nav Bar */
+.header{
+    width: 100%;
+    min-height: 10vh;
+    border-bottom: 3px solid #1F51FF;
+    display: flex;
+    position:fixed;
+    align-items:last baseline;
+    justify-content: center;
+    background-color: black;
+}
+
+.header a{
+    overflow: hidden;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 20px 30px;
+    padding-bottom: 8px;
+}
+
+.header a:hover{
+    font-size: 20px;
+}
+
+/*Home Section */
+
+.homeDisplay{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 0%;
+    margin: 0px 200px;
+}
+
+.homeImg{
+    width: 450px;
+    height: 450px;
+    padding: 60px 30px;
+    padding-bottom: 0%;
+}
+
+.homeImg img{
+    width: 100%;
+    height: 100%;
+}
+
+.homeText{
+    width: 50%;
+    height: 45%;
+    padding: 95px 30px;
+    color: white;
+    padding-bottom: 0%;
+}
+
+.homeText h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.homeText p{
+    padding-bottom: 20px;
+}
+.homeTextButton{
+    font-size: 20px;
+    background-color: #1F51FF;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    padding: 15px 29px;
+}
+
+/*Sperator*/
+.seperator{
+    border: 5px solid #1F51FF;
+    padding: 0px 100px;
+    margin: 200px 0px;
+}
+
+/*About Section */
+.container-about{
+    display: flex;
+    margin: 100px 100px;
+}
+
+.about-text{
+    width: 50%;
+    height: 45%;
+    padding: 134px 74px;
+    color: white;
+    padding-bottom: 0%;
+}
+.container-about h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    margin-bottom: 0px;
+    padding-bottom: 0%;
+}
+
+.container-about h2{
+    color: blue;
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+
+.container-about p{
+    color: white;
+}
+
+.about-img{
+    width: 450px;
+    height: 450px;
+    padding: 60px 30px;
+    padding-bottom: 0%;
+    border-bottom-right-radius: 20%;
+}
+
+.about-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.about-buttons{
+    padding-top: 20px;
+}
+
+.about-buttons button{
+    font-size: 20px;
+    background-color: #1F51FF;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    padding: 8px 20px;
+    margin: 10px;
+}
+
+/*Experience*/
+
+.Experience-div-heading{
+    justify-content: center;
+}
+
+.Experience-div-heading h1:hover{
+    text-decoration: underline;
+}
+
+.Experience-div h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    padding-bottom: 0%;
+    padding: 0px 37%;
+    margin: 0;
+}
+
+.Experience-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Experience-detail{
+    display: flex;
+    justify-content: center;
+}
+.Experience-div-card{
+    opacity: 80%;
+    border-radius: 20px;
+    width: 200px;
+    height: 308px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center  ;
+}
+
+.Experience-div-card:hover{
+    border: 2px solid blue;
+}
+
+.Experience-div-card h1{
+    padding: 12px 0px;
+    font-size: 23px;
+    border-bottom: 2px solid white;
+}
+
+
+.Top-heading{
+    width: auto;
+    height: 100px;
+}
+
+.Mid-heading{
+    width: auto;
+    display: flex;
+    height: 123px;
+    font-size: 15px;
+    border-bottom: 2px solid white;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Mid-heading h2{
+    font-size: 18px;
+    color: white;
+    padding: 23px 0px;
+}
+
+.End-heading{
+    width: auto;
+    height: 20px;
+    padding: 12px 0px;
+    font-size: 15px;
+}
+
+.End-heading h2{
+    font-size: 13px;
+    color: white;
+    padding: 23px 0px;
+}
+
+/*Services*/
+
+.Services{
+    margin: 0%;
+}
+
+.Services-div-heading{
+    justify-content: center;
+    color: white;
+    
+}
+
+.Services-div-heading h1:hover{
+    text-decoration: underline;
+    margin: 0%;
+}
+
+.Services-div h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    padding-bottom: 10%;
+    margin: 0;
+}
+
+.Services-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Services-div-rows{
+    display: flex;
+    color: white;
+}
+
+.Services-div-Columns{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.Services-div-Columns:hover{
+    border: 2px solid blue;
+}
+
+.Services-div-Columns p{
+    font-size: 20px;
+}
+
+
+/*Projects*/
+
+.Projects{
+    margin: 0%;
+}
+
+.Projects-div-heading{
+    justify-content: center;
+    color: white;
+    
+}
+
+.Projects-div-heading h1:hover{
+    text-decoration: underline;
+    margin: 0%;
+}
+
+.Projects-div h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    padding-bottom: 23%;
+    margin: 0;
+}
+
+.Projects-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Projects-div-rows{
+    display: flex;
+    color: white;
+}
+
+.Projects-div-Columns{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 40px;
+}
+
+
+.Services-div-Columns:hover{
+    border: 2px solid blue;
+}
+
+.Services-div-Columns p{
+    font-size: 20px;
+}
+
+/*Contact*/
+
+.Contact{
+    margin: 0%;
+}
+
+.Contact-div-heading{
+    justify-content: center;
+    color: white;
+    
+}
+
+.Contact-div-heading h1:hover{
+    text-decoration: underline;
+    margin: 0%;
+}
+
+.Contact-div h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    padding-bottom: 23%;
+    margin: 0;
+}
+
+.Contact-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact-form{
+    display: flex;
+    flex-direction: column;
+    padding: 0% 10%;
+}
+
+.Contact-form input{
+    border-radius: 50px;
+    height: 50px;
+    width: 382px;
+    padding-left: 10%;
+    font-size: 20px;
+    margin: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Contact-form textarea{
+    border-radius: 20px;
+    height: 250px;
+    width: 352px;
+    padding: 2% 10%;
+    font-size: 20px;
+    margin: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Contact-details{
+    color: white;
+    padding: 0% 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Contact-details p{
+    font-size: 20px;
+    color: white;
+}
+
+
+/*Footer*/
+.footer-container{
+    display: flex;
+    flex-direction: row-reverse;
+    position: sticky;
+    margin-right: 20px;
+}
+
+.footer-container img{
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+}
+
